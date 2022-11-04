@@ -32,14 +32,14 @@ export default function Home() {
       <main className={inter.className}>
         <nav className="nav-bar">
           <ul>
-            <li>Nadia Tiwing</li>
+            <li className="fade-in">Nadia Tiwing</li>
           </ul>
         </nav>
-        <h1 id="title">
+        <h1 id="title" className="fade-in">
           {" "}
           Different Kinds of <span className="highlight">Cyberattack</span>
         </h1>
-        <div className="slideshow">
+        <div className="slideshow fade-in">
           {index > 0 && (
             <button
               className="arrow-btn prev"
