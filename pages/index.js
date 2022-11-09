@@ -77,7 +77,8 @@ export default function Home() {
                     src={item.imgSrc}
                     alt={"Image about " + item.title}
                     layout="fill"
-                    priority
+                    blurDataURL={item.imgSrc}
+                    placeholder="blur"
                   />
                 </div>
                 <div className="card-body">
